@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package pruebafiguras;
 
 /**
@@ -12,8 +8,8 @@ public class TrianguloRectangulo {
 
     // Atributos
 
-    double base; // La base de un triángulo rectángulo
-    double altura; // La altura de un triángulo rectángulo
+    public double base; // La base de un triángulo rectángulo
+    public double altura; // La altura de un triángulo rectángulo
 
     // Métodos
 
@@ -54,7 +50,7 @@ public class TrianguloRectangulo {
      * 
      * @return double | Hipotenusa de un triángulo rectángulo
      */
-    double calcularHipotenusa() {
+    public double calcularHipotenusa() {
         return Math.sqrt(Math.pow(base, 2) + Math.pow(altura, 2));
     }
 

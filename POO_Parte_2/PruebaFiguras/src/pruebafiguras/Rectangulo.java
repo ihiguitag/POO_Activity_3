@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package pruebafiguras;
 
 /**
@@ -12,8 +8,8 @@ public class Rectangulo {
 
     // Atributos
 
-    double base; // Base de un rectángulo
-    double altura; // Altura de un rectángulo
+    public double base; // Base de un rectángulo
+    public double altura; // Altura de un rectángulo
 
     // Métodos
 
